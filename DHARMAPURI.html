@@ -1,0 +1,448 @@
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+<form name="statedashboardForm" method="POST" action="/statedashboard.html">
+
+    <div class="card">
+        <div class="card-body pb-2">
+            <div class="center">
+                <img src="images/wait_progress.gif" id="computePensionLoading" style="display: none; margin-top: 10px;">
+            </div>
+            <div id="printPage" style="overflow-x:hidden!important ;width:100%">
+            
+            
+            
+                <h3 class="secondary-heading">
+                    TAMIL NADU --&gt; DHARMAPURI
+                </h3>
+                <!-- Summary tabs -->
+                <div class="summary-tabs p-0">
+                    <ul class="nav mx-0 p-0 nav-jus tified md-tabs bg-white" role="tablist">
+                        <li class="nav-item note note-primary col-xs-6 col-md-3 col-lg-2 my-1">
+                            <a class="nav-link btn-outline-primary waves-effect w-100 text-center">
+                                <h4 class="mb-0">
+                                    43114
+                                </h4>Total Beneficiary
+                        </a>
+                        </li>
+                        <li class="nav-item note note-secondary col-xs-6 col-md-3 col-lg-2 my-1">
+                            <a class="nav-link btn-outline-default waves-effect w-100 text-center"><h4 class="mb-0">
+                                    42851
+                                </h4>Total Bank A/C</a>
+                        </li>
+                        <li class="nav-item note note-secondary col-xs-6 col-md-3 col-lg-2 my-1">
+                            <a class="nav-link btn-outline-secondary waves-effect w-100 text-center"><h4 class="mb-0">
+                                    0
+                                </h4>Total P.O A/C</a>
+                        </li>
+                        <li class="nav-item note note-success col-xs-6 col-md-3 col-lg-2 my-1">
+                            <a class="nav-link btn-outline-success waves-effect w-100 text-center"><h4 class="mb-0">
+                                    0
+                                </h4>Total M.O A/C</a>
+                        </li>
+                        <li class="nav-item note note-info col-xs-6 col-md-3 col-lg-2 my-1">
+                            <a class="nav-link btn-outline-info waves-effect w-100 text-center"><h4 class="mb-0">
+                                    0
+                                </h4>Total Cash A/C</a>
+                        </li>
+                        
+                        <li class="nav-item note note-primary col-xs-6 col-md-3 col-lg-2 my-1">
+                            <a class="nav-link btn-outline-primary waves-effect w-100 text-center"><h4 class="mb-0">
+                                    6328
+                                </h4>Total Aadhar</a>
+                        </li>
+                        
+                        <li class="nav-item note note-secondary col-xs-6 col-md-3 col-lg-2 my-1">
+                            <a class="nav-link btn-outline-secondary waves-effect w-100 text-center"><h4 class="mb-0">
+                                    0
+                                </h4>Paid Through DBT</a>
+                        </li>
+                        <li class="nav-item note note-success col-xs-6 col-md-3 col-lg-2 my-1">
+                            <a class="nav-link btn-outline-success waves-effect w-100 text-center"><h4 class="mb-0">
+                                    14881
+                                </h4>Male</a>
+                        </li>
+                        <li class="nav-item note note-info col-xs-6 col-md-3 col-lg-2 my-1">
+                            <a class="nav-link btn-outline-info waves-effect w-100 text-center"><h4 class="mb-0">
+                                    28233
+                                </h4>Female</a>
+                        </li>
+                        <li class="nav-item note note-danger col-xs-6 col-md-3 col-lg-2 my-1">
+                            <a class="nav-link btn-outline-danger waves-effect w-100 text-center"><h4 class="mb-0">
+                                    0
+                                </h4>Transgender</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Summary tabs -->
+                <hr>
+                <div>
+                    <table id="exportDataTable1" class="table table-bordered table-striped order-column dataTable" style="width:100%">
+<thead class="font-smaller">
+<tr>
+
+<th class="sorting_disabled">S.No</th>
+<th class="sorting_disabled">Subdistrict/<br>Municipality</th>
+<th class="sorting_disabled">Scheme</th>
+<th class="sorting_disabled">Total Beneficiary</th>
+<th class="sorting_disabled">Total Bank Account</th> 
+<th class="sorting_disabled">Total P.O  Account</th>
+<th class="sorting_disabled">Total M.O Account</th>
+<th class="sorting_disabled">Total Cash Account</th>
+<!--  <th >Total Aadhar</th> -->
+<th class="sorting_disabled">Total Aadhar </th>
+<th class="sorting_disabled">Record Mapped In NPCI</th> 
+<th style="border-left:solid #000000 1px; border-right: solid #000000 1px; " class="sorting_disabled">PFMS Registered</th>
+
+</tr></thead>	
+
+
+<tbody>
+<tr>
+<td></td><td></td><td></td><td></td><td></td><td></td>
+<td align="center"><b>RURAL</b></td>
+<td></td><td></td><td></td><td></td><td></td>
+</tr>
+
+
+
+
+
+
+<tr>
+   <td style="text-align: right;">1</td>
+   
+   
+        <td style="text-align: left;">
+   <a href="statedashboard.do?method=showSubdistrictDrillReport&amp;subdistrictcode=2905001&amp;subname=Dharmapuri">Dharmapuri</a></td>
+        
+   
+   
+   
+   <td style="text-align: left;">IGNOAPS</td>                                                                                                                  
+   <td style="text-align: right;">3458</td> 
+   <td style="text-align: right;">3418</td>
+   <td style="text-align: right;">0</td>
+   <td style="text-align: right;">0</td>
+   <td style="text-align: right;">0</td>
+   
+   <td style="text-align: right;">537</td>
+  <td style="text-align: right;">477</td> 
+    <td style="text-align: right;">0</td>
+    </tr>
+   
+   
+   
+   
+
+
+
+
+
+<tr>
+   <td style="text-align: right;">2</td>
+   
+   
+        <td style="text-align: left;">
+   <a href="statedashboard.do?method=showSubdistrictDrillReport&amp;subdistrictcode=2905002&amp;subname=Harur">Harur</a></td>
+        
+   
+   
+   
+   <td style="text-align: left;">IGNOAPS</td>                                                                                                                  
+   <td style="text-align: right;">10530</td> 
+   <td style="text-align: right;">10489</td>
+   <td style="text-align: right;">0</td>
+   <td style="text-align: right;">0</td>
+   <td style="text-align: right;">0</td>
+   
+   <td style="text-align: right;">893</td>
+  <td style="text-align: right;">787</td> 
+    <td style="text-align: right;">0</td>
+    </tr>
+   
+   
+   
+   
+
+
+
+
+
+<tr>
+   <td style="text-align: right;">3</td>
+   
+   
+        <td style="text-align: left;">
+   <a href="statedashboard.do?method=showSubdistrictDrillReport&amp;subdistrictcode=2905007&amp;subname=KARIMANGALAM">KARIMANGALAM</a></td>
+        
+   
+   
+   
+   <td style="text-align: left;">IGNOAPS</td>                                                                                                                  
+   <td style="text-align: right;">4090</td> 
+   <td style="text-align: right;">4075</td>
+   <td style="text-align: right;">0</td>
+   <td style="text-align: right;">0</td>
+   <td style="text-align: right;">0</td>
+   
+   <td style="text-align: right;">478</td>
+  <td style="text-align: right;">388</td> 
+    <td style="text-align: right;">0</td>
+    </tr>
+   
+   
+   
+   
+
+
+
+
+
+<tr>
+   <td style="text-align: right;">4</td>
+   
+   
+        <td style="text-align: left;">
+   <a href="statedashboard.do?method=showSubdistrictDrillReport&amp;subdistrictcode=2905008&amp;subname=NALLAMPALLI">NALLAMPALLI</a></td>
+        
+   
+   
+   
+   <td style="text-align: left;">IGNOAPS</td>                                                                                                                  
+   <td style="text-align: right;">4651</td> 
+   <td style="text-align: right;">4535</td>
+   <td style="text-align: right;">0</td>
+   <td style="text-align: right;">0</td>
+   <td style="text-align: right;">0</td>
+   
+   <td style="text-align: right;">463</td>
+  <td style="text-align: right;">409</td> 
+    <td style="text-align: right;">0</td>
+    </tr>
+   
+   
+   
+   
+
+
+
+
+
+<tr>
+   <td style="text-align: right;">5</td>
+   
+   
+        <td style="text-align: left;">
+   <a href="statedashboard.do?method=showSubdistrictDrillReport&amp;subdistrictcode=2905006&amp;subname=Palacode">Palacode</a></td>
+        
+   
+   
+   
+   <td style="text-align: left;">IGNOAPS</td>                                                                                                                  
+   <td style="text-align: right;">4806</td> 
+   <td style="text-align: right;">4773</td>
+   <td style="text-align: right;">0</td>
+   <td style="text-align: right;">0</td>
+   <td style="text-align: right;">0</td>
+   
+   <td style="text-align: right;">1054</td>
+  <td style="text-align: right;">880</td> 
+    <td style="text-align: right;">0</td>
+    </tr>
+   
+   
+   
+   
+
+
+
+
+
+<tr>
+   <td style="text-align: right;">6</td>
+   
+   
+        <td style="text-align: left;">
+   <a href="statedashboard.do?method=showSubdistrictDrillReport&amp;subdistrictcode=2905004&amp;subname=Pappireddipatti">Pappireddipatti</a></td>
+        
+   
+   
+   
+   <td style="text-align: left;">IGNOAPS</td>                                                                                                                  
+   <td style="text-align: right;">8186</td> 
+   <td style="text-align: right;">8170</td>
+   <td style="text-align: right;">0</td>
+   <td style="text-align: right;">0</td>
+   <td style="text-align: right;">0</td>
+   
+   <td style="text-align: right;">1872</td>
+  <td style="text-align: right;">1612</td> 
+    <td style="text-align: right;">0</td>
+    </tr>
+   
+   
+   
+   
+
+
+
+
+
+<tr>
+   <td style="text-align: right;">7</td>
+   
+   
+        <td style="text-align: left;">
+   <a href="statedashboard.do?method=showSubdistrictDrillReport&amp;subdistrictcode=2905003&amp;subname=Pennagaram">Pennagaram</a></td>
+        
+   
+   
+   
+   <td style="text-align: left;">IGNOAPS</td>                                                                                                                  
+   <td style="text-align: right;">7393</td> 
+   <td style="text-align: right;">7391</td>
+   <td style="text-align: right;">0</td>
+   <td style="text-align: right;">0</td>
+   <td style="text-align: right;">0</td>
+   
+   <td style="text-align: right;">1031</td>
+  <td style="text-align: right;">798</td> 
+    <td style="text-align: right;">0</td>
+    </tr>
+   
+   
+   
+   
+
+
+
+   
+   
+    <tr>
+    <td></td><td></td><td></td><td></td><td></td><td></td>
+    <td align="center"><b>URBAN</b></td>
+    <td></td><td></td><td></td><td></td><td></td>
+  </tr>
+   
+    
+    
+   
+   
+ 
+
+    
+    
+   
+   
+ 
+
+    
+    
+   
+   
+ 
+
+    
+    
+   
+   
+ 
+
+    
+    
+   
+   
+ 
+
+    
+    
+   
+   
+ 
+
+    
+    
+   
+   
+ 
+
+    
+    
+ 
+
+</tbody>
+<tfoot class="bg-info">
+
+<tr>
+    
+ </tr>
+
+<tr>
+    
+ </tr>
+
+<tr>
+    
+ </tr>
+
+<tr>
+    
+ </tr>
+
+<tr>
+    
+ </tr>
+
+<tr>
+    
+ </tr>
+
+<tr>
+    
+ </tr>
+
+<tr>
+    
+   <td style="text-align: left;" colspan="2">
+   <b>GRAND TOTAL</b></td>
+   <td style="text-align: left;">IGNOAPS</td>                                                                                                                  
+   <td style="text-align: right;">43114</td> 
+   <td style="text-align: right;">42851</td>
+   <td style="text-align: right;">0</td>
+   <td style="text-align: right;">0</td>
+   <td style="text-align: right;">0</td>
+  
+   <td style="text-align: right;">6328</td>
+   <td style="text-align: right;">5351</td>
+   <td style="text-align: right;">0</td>
+   
+ </tr>
+
+
+  
+
+</tfoot>
+</table>
+<div style="margin-left: 230px;">
+ This report includes only sanctioned pensioners.
+<!-- <input type="button" class="btn btn-primary" value="Print" onclick="printDiv('printPage')"></input> -->
+<a href="javascript:doNothing()" onclick="stateGoBack('statedashboard.do?method=getBackValueList&amp;level=district')">
+<span class="waves-input-wrapper waves-effect waves-light"><input type="button" name="back" value="Back" class="btn btn-primary"></span></a>
+<!-- <input type="button" class="btn btn-primary" onclick="tableToExcel('sbtb2excel', 'W3C Example Table')" value="Export to Excel"> -->
+
+</div>
+                </div>
+                
+            
+            
+    
+            
+            
+            
+            
+            
+                    
+            
+    </div>		
+            
+        </div>
+    </div>

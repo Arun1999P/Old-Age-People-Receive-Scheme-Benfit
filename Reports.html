@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  <style>
+    details{
+      background-color: aliceblue;
+      padding: 15px;
+      border-style: outset;
+    }
+    details p{
+      margin-top: 10px;
+      margin-left: 20px;
+
+    }
+    .navTextAboutUs{
+      background-color: aquamarine;
+      height: 80px;
+    }
+    .navbarAboutUs{
+  position: fixed;
+  height: 100px;
+  width: 100%;
+  left: 0;
+  
+}
+.navbarAboutUs .logo{
+  float: left;
+  width: 200px;
+  height: auto;
+  padding: 0px 0px;
+  font-size: 30px;
+  
+  color: white;
+  
+  text-decoration: none;
+}
+
+
+.navbarAboutUs ul{
+  float: right;
+  margin-right: auto;
+}
+.navbarAboutUs ul li{
+  list-style: none;
+  margin: 0 8px;
+  display: inline-table;
+  line-height: 80px;
+}
+.navbarAboutUs ul li a{
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  padding: 6px 13px;
+  text-decoration: none;
+  transition: .4s;
+  text-shadow: -1px 1px 0 #000,
+                          1px 1px 0 #000,
+                         1px -1px 0 #000,
+                        -1px -1px 0 #000;
+}
+.navbarAboutUs ul li a.active,
+.navbarAboutUs ul li a:hover{
+  background: red;
+  border-radius: 2px;
+}
+  </style>
+</head>
+<body>
+<div class="navTextAboutUs">
+  <nav class="navbarAboutUs">
+    <ul>	
+      <li><a href="index.php">Home</a></li>
+      <li><a  href="About Us.html">About Us</a></li>
+      <li><a href="Guidelines.html">Guidelines</a></li>
+      <li><a class="active" href="#">Reports</a></li>
+      <li><a href="FAQ.html">FAQ</a></li>
+      <li><a href="Contact us.html">Contact us</a></li>
+      <li><a href="Gallery.html">Gallery</a></li>
+      <li><a href="inde.php">Apply</a></li>
+     
+    </ul>
+  </nav>
+</div>
+<script type="text/javascript">
+function myFunction(){
+	  if (confirm("You will be redirected to an external website,Ministry of Rural Development will not be responsible on the content available of this web site, Are you sure you want to proceed ?")) {
+		  return true;
+	  } else {
+		  return false;
+	  }
+}
+
+</script>
+<!--Main layout-->
+<main class="mb-2" style="min-height: calc(100vh - 97px);">
+  <div class="container-fluid">
+    <h2>Reports</h2>
+    <!--Grid row-->
+    <div class="row g-2 d-flex">
+      <div class="col-xl-3 col-md-6 col-12 d-flex">
+        <div class="card w-100">
+          <div class="card-header bg-primary">
+            <h5 class="font-weight-500 my-0 text-truncate">List of Reports</h5>
+          </div>
+          <div class="card-body">
+            <ol type="1." start="1">
+              <li><a href="statedashboard.html">State Dashboard <span class="badge bg-danger">New</span></a></li>
+            </ol>
+          </div>
+        </div>
+      </div>
+      
+
+      
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>

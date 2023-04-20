@@ -1,0 +1,824 @@
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+
+<div class="card">
+    <div class="card-body pb-2">
+        <div class="center">
+            <img src="images/wait_progress.gif" id="computePensionLoading" style="display: none; margin-top: 10px;">
+        </div>
+        <div id="printPage" style="overflow-x:hidden!important ;width:100%">
+        
+        
+        
+        
+
+            <h3 class="secondary-heading">
+                TAMIL NADU--&gt; ARIYALUR --&gt; Sendurai
+            </h3>
+            <!-- Summary tabs -->
+            <div class="summary-tabs p-0">
+                <ul class="nav mx-0 p-0 nav-jus tified md-tabs bg-white" role="tablist">
+                    <li class="nav-item note note-primary col-xs-6 col-md-3 col-lg-2 my-1">
+                        <a class="nav-link btn-outline-primary waves-effect w-100 text-center">
+                            <h4 class="mb-0">
+                                4313
+                            </h4>Total Beneficiary
+                    </a>
+                    </li>
+                    <li class="nav-item note note-secondary col-xs-6 col-md-3 col-lg-2 my-1">
+                        <a class="nav-link btn-outline-default waves-effect w-100 text-center"><h4 class="mb-0">
+                                4261
+                            </h4>Total Bank A/C</a>
+                    </li>
+                    <li class="nav-item note note-secondary col-xs-6 col-md-3 col-lg-2 my-1">
+                        <a class="nav-link btn-outline-secondary waves-effect w-100 text-center"><h4 class="mb-0">
+                                0
+                            </h4>Total P.O A/C</a>
+                    </li>
+                    <li class="nav-item note note-success col-xs-6 col-md-3 col-lg-2 my-1">
+                        <a class="nav-link btn-outline-success waves-effect w-100 text-center"><h4 class="mb-0">
+                                0
+                            </h4>Total M.O A/C</a>
+                    </li>
+                    <li class="nav-item note note-info col-xs-6 col-md-3 col-lg-2 my-1">
+                        <a class="nav-link btn-outline-info waves-effect w-100 text-center"><h4 class="mb-0">
+                                0
+                            </h4>Total Cash A/C</a>
+                    </li>
+                    
+                    <li class="nav-item note note-primary col-xs-6 col-md-3 col-lg-2 my-1">
+                        <a class="nav-link btn-outline-primary waves-effect w-100 text-center"><h4 class="mb-0">
+                                655
+                            </h4>Total Aadhar</a>
+                    </li>
+                    
+                    <li class="nav-item note note-secondary col-xs-6 col-md-3 col-lg-2 my-1">
+                        <a class="nav-link btn-outline-secondary waves-effect w-100 text-center"><h4 class="mb-0">
+                                0
+                            </h4>Paid Through DBT</a>
+                    </li>
+                    <li class="nav-item note note-success col-xs-6 col-md-3 col-lg-2 my-1">
+                        <a class="nav-link btn-outline-success waves-effect w-100 text-center"><h4 class="mb-0">
+                                1738
+                            </h4>Male</a>
+                    </li>
+                    <li class="nav-item note note-info col-xs-6 col-md-3 col-lg-2 my-1">
+                        <a class="nav-link btn-outline-info waves-effect w-100 text-center"><h4 class="mb-0">
+                                2575
+                            </h4>Female</a>
+                    </li>
+                    <li class="nav-item note note-danger col-xs-6 col-md-3 col-lg-2 my-1">
+                        <a class="nav-link btn-outline-danger waves-effect w-100 text-center"><h4 class="mb-0">
+                                0
+                            </h4>Transgender</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- Summary tabs -->
+            <hr>
+            <div class="table-responsive">
+                &gt;<div id="exportDataTable_wrapper" class="dataTables_wrapper dt-bootstrap4"><div class="dt-buttons btn-group">   <button class="btn btn-secondary buttons-excel buttons-html5" tabindex="0" aria-controls="exportDataTable" type="button"><span>Excel</span></button> <button class="btn btn-secondary buttons-pdf buttons-html5" tabindex="0" aria-controls="exportDataTable" type="button"><span>PDF</span></button> <button class="btn btn-secondary buttons-print" tabindex="0" aria-controls="exportDataTable" type="button"><span>Print</span></button> </div><div id="exportDataTable_filter" class="dataTables_filter"><label>Search:<input type="search" class="form-control form-control-sm" placeholder="" aria-controls="exportDataTable"></label></div><div class="dataTables_scroll"><div class="dataTables_scrollHead" style="overflow: hidden; position: relative; border: 0px; width: 100%;"><div class="dataTables_scrollHeadInner" style="box-sizing: content-box; width: 885.047px; padding-right: 8px;"><table class="table table-bordered table-striped order-column dataTable" style="width: 885.047px; margin-left: 0px;" role="grid"><thead class="font-smaller"><tr role="row"><th colspan="12" rowspan="1">IGNOAPS</th></tr>
+<tr role="row"><th style="text-align: center; width: 47.9688px;" class="sorting_asc" tabindex="0" aria-controls="exportDataTable" rowspan="1" colspan="1" aria-sort="ascending" aria-label="S.No: activate to sort column descending">S.No</th><th style="text-align: center; width: 164.406px;" class="sorting" tabindex="0" aria-controls="exportDataTable" rowspan="1" colspan="1" aria-label="GramPanchayat/Ward: activate to sort column ascending">GramPanchayat/Ward</th><th style="text-align: center; width: 77.1562px;" class="sorting" tabindex="0" aria-controls="exportDataTable" rowspan="1" colspan="1" aria-label="Scheme: activate to sort column ascending">Scheme</th><th style="text-align: center; width: 89.4062px;" class="sorting" tabindex="0" aria-controls="exportDataTable" rowspan="1" colspan="1" aria-label="Total Beneficiary: activate to sort column ascending">Total Beneficiary</th><th style="text-align: center; width: 70.8281px;" class="sorting" tabindex="0" aria-controls="exportDataTable" rowspan="1" colspan="1" aria-label="Total Bank Account: activate to sort column ascending">Total Bank Account</th><th style="text-align: center; width: 70.8281px;" class="sorting" tabindex="0" aria-controls="exportDataTable" rowspan="1" colspan="1" aria-label="Total P.O  Account: activate to sort column ascending">Total P.O  Account</th><th style="text-align: center; width: 70.8281px;" class="sorting" tabindex="0" aria-controls="exportDataTable" rowspan="1" colspan="1" aria-label="Total M.O Account: activate to sort column ascending">Total M.O Account</th><th style="text-align: center; width: 70.8281px;" class="sorting" tabindex="0" aria-controls="exportDataTable" rowspan="1" colspan="1" aria-label="Total Cash Account: activate to sort column ascending">Total Cash Account</th><th style="text-align: center; width: 64.0938px;" class="sorting" tabindex="0" aria-controls="exportDataTable" rowspan="1" colspan="1" aria-label="Total Aadhar : activate to sort column ascending">Total Aadhar </th><th style="text-align: center; width: 71.5156px;" class="sorting" tabindex="0" aria-controls="exportDataTable" rowspan="1" colspan="1" aria-label="Record Mapped In NPCI: activate to sort column ascending">Record Mapped In NPCI</th><th style="text-align: center; width: 86.1875px;" class="sorting" tabindex="0" aria-controls="exportDataTable" rowspan="1" colspan="1" aria-label="PFMS Registered: activate to sort column ascending">PFMS Registered</th></tr></thead></table></div></div><div class="dataTables_scrollBody" style="position: relative; overflow: auto; width: 100%; max-height: 300px;"><table id="exportDataTable" class="table table-bordered table-striped order-column dataTable" style="width: 100%;" role="grid" aria-describedby="exportDataTable_info"><thead class="font-smaller"><tr role="row" style="height: 2px;"><th colspan="12" rowspan="1" style="padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px; width: 884.047px;"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;">IGNOAPS</div></th></tr>
+<tr role="row" style="height: 2px;"><th style="text-align: center; width: 47.9688px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;" class="sorting_asc" aria-controls="exportDataTable" rowspan="1" colspan="1" aria-sort="ascending" aria-label="S.No: activate to sort column descending"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;">S.No</div></th><th style="text-align: center; width: 164.406px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;" class="sorting" aria-controls="exportDataTable" rowspan="1" colspan="1" aria-label="GramPanchayat/Ward: activate to sort column ascending"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;">GramPanchayat/Ward</div></th><th style="text-align: center; width: 77.1562px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;" class="sorting" aria-controls="exportDataTable" rowspan="1" colspan="1" aria-label="Scheme: activate to sort column ascending"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;">Scheme</div></th><th style="text-align: center; width: 89.4062px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;" class="sorting" aria-controls="exportDataTable" rowspan="1" colspan="1" aria-label="Total Beneficiary: activate to sort column ascending"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;">Total Beneficiary</div></th><th style="text-align: center; width: 70.8281px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;" class="sorting" aria-controls="exportDataTable" rowspan="1" colspan="1" aria-label="Total Bank Account: activate to sort column ascending"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;">Total Bank Account</div></th><th style="text-align: center; width: 70.8281px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;" class="sorting" aria-controls="exportDataTable" rowspan="1" colspan="1" aria-label="Total P.O  Account: activate to sort column ascending"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;">Total P.O  Account</div></th><th style="text-align: center; width: 70.8281px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;" class="sorting" aria-controls="exportDataTable" rowspan="1" colspan="1" aria-label="Total M.O Account: activate to sort column ascending"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;">Total M.O Account</div></th><th style="text-align: center; width: 70.8281px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;" class="sorting" aria-controls="exportDataTable" rowspan="1" colspan="1" aria-label="Total Cash Account: activate to sort column ascending"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;">Total Cash Account</div></th><th style="text-align: center; width: 64.0938px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;" class="sorting" aria-controls="exportDataTable" rowspan="1" colspan="1" aria-label="Total Aadhar : activate to sort column ascending"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;">Total Aadhar </div></th><th style="text-align: center; width: 71.5156px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;" class="sorting" aria-controls="exportDataTable" rowspan="1" colspan="1" aria-label="Record Mapped In NPCI: activate to sort column ascending"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;">Record Mapped In NPCI</div></th><th style="text-align: center; width: 86.1875px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;" class="sorting" aria-controls="exportDataTable" rowspan="1" colspan="1" aria-label="PFMS Registered: activate to sort column ascending"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;">PFMS Registered</div></th></tr></thead><tfoot class="bg-info">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<tr style="height: 2px;"><td style="text-align: left; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px; width: 212.375px;" colspan="2" rowspan="1"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;"><b>GRAND TOTAL</b></div></td><td style="text-align: left; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px; width: 77.1562px;" rowspan="1" colspan="1"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;">IGNOAPS</div></td><td style="text-align: right; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px; width: 89.4062px;" rowspan="1" colspan="1"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;">4313</div></td><td style="text-align: right; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px; width: 70.8281px;" rowspan="1" colspan="1"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;">0</div></td><td style="text-align: right; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px; width: 70.8281px;" rowspan="1" colspan="1"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;">0</div></td><td style="text-align: right; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px; width: 70.8281px;" rowspan="1" colspan="1"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;">0</div></td><td style="text-align: right; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px; width: 70.8281px;" rowspan="1" colspan="1"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;">2575</div></td><td style="text-align: right; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px; width: 64.0938px;" rowspan="1" colspan="1"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;">655</div></td><td style="text-align: right; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px; width: 71.5156px;" rowspan="1" colspan="1"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;">606</div></td><td style="text-align: right; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px; width: 86.1875px;" rowspan="1" colspan="1"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;">0</div></td></tr>
+
+
+    </tfoot>
+
+
+<tbody>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<tr role="row" class="odd">
+
+
+<td style="text-align: right;" class="numcol strcol sorting_1">1</td>
+<td style="text-align: left;" class="numcol"><a href="statedashboard.do?method=showSubdistrictDrillReport&amp;grampanchayatcode=2917004004&amp;gpname=ALATHIYUR">ALATHIYUR</a></td>
+
+<td style="text-align: left;" class="numcol">IGNOAPS</td>
+<td style="text-align: right;" class="numcol">155</td> 
+<td style="text-align: right;" class="numcol">155</td>
+<td style="text-align: right;" class="numcol">0</td>
+<td style="text-align: right;" class="numcol">0</td>
+<td style="text-align: right;" class="numcol">0</td>
+
+<td style="text-align: right;" class="numcol">7</td>
+<td style="text-align: right;" class="numcol">7</td>
+<td style="text-align: right;" class="numcol">0</td>
+
+</tr><tr role="row" class="even">
+
+
+<td style="text-align: right;" class="numcol strcol sorting_1">2</td>
+<td style="text-align: left;" class="numcol"><a href="statedashboard.do?method=showSubdistrictDrillReport&amp;grampanchayatcode=2917004021&amp;gpname=ANANDAVADI">ANANDAVADI</a></td>
+
+<td style="text-align: left;" class="numcol">IGNOAPS</td>
+<td style="text-align: right;" class="numcol">158</td> 
+<td style="text-align: right;" class="numcol">156</td>
+<td style="text-align: right;" class="numcol">0</td>
+<td style="text-align: right;" class="numcol">0</td>
+<td style="text-align: right;" class="numcol">0</td>
+
+<td style="text-align: right;" class="numcol">19</td>
+<td style="text-align: right;" class="numcol">17</td>
+<td style="text-align: right;" class="numcol">0</td>
+
+</tr><tr role="row" class="odd">
+
+
+<td style="text-align: right;" class="numcol strcol sorting_1">3</td>
+<td style="text-align: left;" class="numcol"><a href="statedashboard.do?method=showSubdistrictDrillReport&amp;grampanchayatcode=2917004010&amp;gpname=ASAVEERANKUDIKADU">ASAVEERANKUDIKADU</a></td>
+
+<td style="text-align: left;" class="numcol">IGNOAPS</td>
+<td style="text-align: right;" class="numcol">88</td> 
+<td style="text-align: right;" class="numcol">86</td>
+<td style="text-align: right;" class="numcol">0</td>
+<td style="text-align: right;" class="numcol">0</td>
+<td style="text-align: right;" class="numcol">0</td>
+
+<td style="text-align: right;" class="numcol">17</td>
+<td style="text-align: right;" class="numcol">13</td>
+<td style="text-align: right;" class="numcol">0</td>
+
+</tr><tr role="row" class="even">
+
+
+<td style="text-align: right;" class="numcol strcol sorting_1">4</td>
+<td style="text-align: left;" class="numcol"><a href="statedashboard.do?method=showSubdistrictDrillReport&amp;grampanchayatcode=2917004005&amp;gpname=ATHANAKURICHI">ATHANAKURICHI</a></td>
+
+<td style="text-align: left;" class="numcol">IGNOAPS</td>
+<td style="text-align: right;" class="numcol">143</td> 
+<td style="text-align: right;" class="numcol">142</td>
+<td style="text-align: right;" class="numcol">0</td>
+<td style="text-align: right;" class="numcol">0</td>
+<td style="text-align: right;" class="numcol">0</td>
+
+<td style="text-align: right;" class="numcol">48</td>
+<td style="text-align: right;" class="numcol">43</td>
+<td style="text-align: right;" class="numcol">0</td>
+
+</tr><tr role="row" class="odd">
+
+
+<td style="text-align: right;" class="numcol strcol sorting_1">5</td>
+<td style="text-align: left;" class="numcol"><a href="statedashboard.do?method=showSubdistrictDrillReport&amp;grampanchayatcode=2917004007&amp;gpname=AYYANTHATHANOOR">AYYANTHATHANOOR</a></td>
+
+<td style="text-align: left;" class="numcol">IGNOAPS</td>
+<td style="text-align: right;" class="numcol">207</td> 
+<td style="text-align: right;" class="numcol">204</td>
+<td style="text-align: right;" class="numcol">0</td>
+<td style="text-align: right;" class="numcol">0</td>
+<td style="text-align: right;" class="numcol">0</td>
+
+<td style="text-align: right;" class="numcol">26</td>
+<td style="text-align: right;" class="numcol">26</td>
+<td style="text-align: right;" class="numcol">0</td>
+
+</tr><tr role="row" class="even">
+
+
+<td style="text-align: right;" class="numcol strcol sorting_1">6</td>
+<td style="text-align: left;" class="numcol"><a href="statedashboard.do?method=showSubdistrictDrillReport&amp;grampanchayatcode=2917004017&amp;gpname=IRUMBILIKURICHI">IRUMBILIKURICHI</a></td>
+
+<td style="text-align: left;" class="numcol">IGNOAPS</td>
+<td style="text-align: right;" class="numcol">156</td> 
+<td style="text-align: right;" class="numcol">156</td>
+<td style="text-align: right;" class="numcol">0</td>
+<td style="text-align: right;" class="numcol">0</td>
+<td style="text-align: right;" class="numcol">0</td>
+
+<td style="text-align: right;" class="numcol">13</td>
+<td style="text-align: right;" class="numcol">11</td>
+<td style="text-align: right;" class="numcol">0</td>
+
+</tr><tr role="row" class="odd">
+
+
+<td style="text-align: right;" class="numcol strcol sorting_1">7</td>
+<td style="text-align: left;" class="numcol"><a href="statedashboard.do?method=showSubdistrictDrillReport&amp;grampanchayatcode=2917004018&amp;gpname=KEELAMALIGAI">KEELAMALIGAI</a></td>
+
+<td style="text-align: left;" class="numcol">IGNOAPS</td>
+<td style="text-align: right;" class="numcol">168</td> 
+<td style="text-align: right;" class="numcol">168</td>
+<td style="text-align: right;" class="numcol">0</td>
+<td style="text-align: right;" class="numcol">0</td>
+<td style="text-align: right;" class="numcol">0</td>
+
+<td style="text-align: right;" class="numcol">26</td>
+<td style="text-align: right;" class="numcol">23</td>
+<td style="text-align: right;" class="numcol">0</td>
+
+</tr><tr role="row" class="even">
+
+
+<td style="text-align: right;" class="numcol strcol sorting_1">8</td>
+<td style="text-align: left;" class="numcol"><a href="statedashboard.do?method=showSubdistrictDrillReport&amp;grampanchayatcode=2917004016&amp;gpname=KILIMANGALAM">KILIMANGALAM</a></td>
+
+<td style="text-align: left;" class="numcol">IGNOAPS</td>
+<td style="text-align: right;" class="numcol">149</td> 
+<td style="text-align: right;" class="numcol">148</td>
+<td style="text-align: right;" class="numcol">0</td>
+<td style="text-align: right;" class="numcol">0</td>
+<td style="text-align: right;" class="numcol">0</td>
+
+<td style="text-align: right;" class="numcol">25</td>
+<td style="text-align: right;" class="numcol">20</td>
+<td style="text-align: right;" class="numcol">0</td>
+
+</tr><tr role="row" class="odd">
+
+
+<td style="text-align: right;" class="numcol strcol sorting_1">9</td>
+<td style="text-align: left;" class="numcol"><a href="statedashboard.do?method=showSubdistrictDrillReport&amp;grampanchayatcode=2917004008&amp;gpname=KULUMUR">KULUMUR</a></td>
+
+<td style="text-align: left;" class="numcol">IGNOAPS</td>
+<td style="text-align: right;" class="numcol">140</td> 
+<td style="text-align: right;" class="numcol">139</td>
+<td style="text-align: right;" class="numcol">0</td>
+<td style="text-align: right;" class="numcol">0</td>
+<td style="text-align: right;" class="numcol">0</td>
+
+<td style="text-align: right;" class="numcol">46</td>
+<td style="text-align: right;" class="numcol">45</td>
+<td style="text-align: right;" class="numcol">0</td>
+
+</tr><tr role="row" class="even">
+
+
+<td style="text-align: right;" class="numcol strcol sorting_1">10</td>
+<td style="text-align: left;" class="numcol"><a href="statedashboard.do?method=showSubdistrictDrillReport&amp;grampanchayatcode=2917004006&amp;gpname=MANAKUDAIYAN">MANAKUDAIYAN</a></td>
+
+<td style="text-align: left;" class="numcol">IGNOAPS</td>
+<td style="text-align: right;" class="numcol">152</td> 
+<td style="text-align: right;" class="numcol">149</td>
+<td style="text-align: right;" class="numcol">0</td>
+<td style="text-align: right;" class="numcol">0</td>
+<td style="text-align: right;" class="numcol">0</td>
+
+<td style="text-align: right;" class="numcol">25</td>
+<td style="text-align: right;" class="numcol">25</td>
+<td style="text-align: right;" class="numcol">0</td>
+
+</tr><tr role="row" class="odd">
+
+
+<td style="text-align: right;" class="numcol strcol sorting_1">11</td>
+<td style="text-align: left;" class="numcol"><a href="statedashboard.do?method=showSubdistrictDrillReport&amp;grampanchayatcode=2917004009&amp;gpname=MANNAPATHUR">MANNAPATHUR</a></td>
+
+<td style="text-align: left;" class="numcol">IGNOAPS</td>
+<td style="text-align: right;" class="numcol">249</td> 
+<td style="text-align: right;" class="numcol">243</td>
+<td style="text-align: right;" class="numcol">0</td>
+<td style="text-align: right;" class="numcol">0</td>
+<td style="text-align: right;" class="numcol">0</td>
+
+<td style="text-align: right;" class="numcol">33</td>
+<td style="text-align: right;" class="numcol">32</td>
+<td style="text-align: right;" class="numcol">0</td>
+
+</tr><tr role="row" class="even">
+
+
+<td style="text-align: right;" class="numcol strcol sorting_1">12</td>
+<td style="text-align: left;" class="numcol"><a href="statedashboard.do?method=showSubdistrictDrillReport&amp;grampanchayatcode=2917004023&amp;gpname=MARUVATHUR">MARUVATHUR</a></td>
+
+<td style="text-align: left;" class="numcol">IGNOAPS</td>
+<td style="text-align: right;" class="numcol">131</td> 
+<td style="text-align: right;" class="numcol">131</td>
+<td style="text-align: right;" class="numcol">0</td>
+<td style="text-align: right;" class="numcol">0</td>
+<td style="text-align: right;" class="numcol">0</td>
+
+<td style="text-align: right;" class="numcol">33</td>
+<td style="text-align: right;" class="numcol">31</td>
+<td style="text-align: right;" class="numcol">0</td>
+
+</tr><tr role="row" class="odd">
+
+
+<td style="text-align: right;" class="numcol strcol sorting_1">13</td>
+<td style="text-align: left;" class="numcol"><a href="statedashboard.do?method=showSubdistrictDrillReport&amp;grampanchayatcode=2917004014&amp;gpname=NAGALKULI">NAGALKULI</a></td>
+
+<td style="text-align: left;" class="numcol">IGNOAPS</td>
+<td style="text-align: right;" class="numcol">125</td> 
+<td style="text-align: right;" class="numcol">123</td>
+<td style="text-align: right;" class="numcol">0</td>
+<td style="text-align: right;" class="numcol">0</td>
+<td style="text-align: right;" class="numcol">0</td>
+
+<td style="text-align: right;" class="numcol">19</td>
+<td style="text-align: right;" class="numcol">18</td>
+<td style="text-align: right;" class="numcol">0</td>
+
+</tr><tr role="row" class="even">
+
+
+<td style="text-align: right;" class="numcol strcol sorting_1">14</td>
+<td style="text-align: left;" class="numcol"><a href="statedashboard.do?method=showSubdistrictDrillReport&amp;grampanchayatcode=2917004027&amp;gpname=NAKKAMBADI">NAKKAMBADI</a></td>
+
+<td style="text-align: left;" class="numcol">IGNOAPS</td>
+<td style="text-align: right;" class="numcol">106</td> 
+<td style="text-align: right;" class="numcol">99</td>
+<td style="text-align: right;" class="numcol">0</td>
+<td style="text-align: right;" class="numcol">0</td>
+<td style="text-align: right;" class="numcol">0</td>
+
+<td style="text-align: right;" class="numcol">16</td>
+<td style="text-align: right;" class="numcol">16</td>
+<td style="text-align: right;" class="numcol">0</td>
+
+</tr><tr role="row" class="odd">
+
+
+<td style="text-align: right;" class="numcol strcol sorting_1">15</td>
+<td style="text-align: left;" class="numcol"><a href="statedashboard.do?method=showSubdistrictDrillReport&amp;grampanchayatcode=2917004026&amp;gpname=NAMANKUNAM">NAMANKUNAM</a></td>
+
+<td style="text-align: left;" class="numcol">IGNOAPS</td>
+<td style="text-align: right;" class="numcol">116</td> 
+<td style="text-align: right;" class="numcol">112</td>
+<td style="text-align: right;" class="numcol">0</td>
+<td style="text-align: right;" class="numcol">0</td>
+<td style="text-align: right;" class="numcol">0</td>
+
+<td style="text-align: right;" class="numcol">4</td>
+<td style="text-align: right;" class="numcol">3</td>
+<td style="text-align: right;" class="numcol">0</td>
+
+</tr><tr role="row" class="even">
+
+
+<td style="text-align: right;" class="numcol strcol sorting_1">16</td>
+<td style="text-align: left;" class="numcol"><a href="statedashboard.do?method=showSubdistrictDrillReport&amp;grampanchayatcode=2917004015&amp;gpname=PARANAM">PARANAM</a></td>
+
+<td style="text-align: left;" class="numcol">IGNOAPS</td>
+<td style="text-align: right;" class="numcol">165</td> 
+<td style="text-align: right;" class="numcol">160</td>
+<td style="text-align: right;" class="numcol">0</td>
+<td style="text-align: right;" class="numcol">0</td>
+<td style="text-align: right;" class="numcol">0</td>
+
+<td style="text-align: right;" class="numcol">19</td>
+<td style="text-align: right;" class="numcol">19</td>
+<td style="text-align: right;" class="numcol">0</td>
+
+</tr><tr role="row" class="odd">
+
+
+<td style="text-align: right;" class="numcol strcol sorting_1">17</td>
+<td style="text-align: left;" class="numcol"><a href="statedashboard.do?method=showSubdistrictDrillReport&amp;grampanchayatcode=2917004024&amp;gpname=PERIYAKURICHI">PERIYAKURICHI</a></td>
+
+<td style="text-align: left;" class="numcol">IGNOAPS</td>
+<td style="text-align: right;" class="numcol">119</td> 
+<td style="text-align: right;" class="numcol">118</td>
+<td style="text-align: right;" class="numcol">0</td>
+<td style="text-align: right;" class="numcol">0</td>
+<td style="text-align: right;" class="numcol">0</td>
+
+<td style="text-align: right;" class="numcol">46</td>
+<td style="text-align: right;" class="numcol">42</td>
+<td style="text-align: right;" class="numcol">0</td>
+
+</tr><tr role="row" class="even">
+
+
+<td style="text-align: right;" class="numcol strcol sorting_1">18</td>
+<td style="text-align: left;" class="numcol"><a href="statedashboard.do?method=showSubdistrictDrillReport&amp;grampanchayatcode=2917004019&amp;gpname=PILAKURICHI">PILAKURICHI</a></td>
+
+<td style="text-align: left;" class="numcol">IGNOAPS</td>
+<td style="text-align: right;" class="numcol">150</td> 
+<td style="text-align: right;" class="numcol">147</td>
+<td style="text-align: right;" class="numcol">0</td>
+<td style="text-align: right;" class="numcol">0</td>
+<td style="text-align: right;" class="numcol">0</td>
+
+<td style="text-align: right;" class="numcol">13</td>
+<td style="text-align: right;" class="numcol">12</td>
+<td style="text-align: right;" class="numcol">0</td>
+
+</tr><tr role="row" class="odd">
+
+
+<td style="text-align: right;" class="numcol strcol sorting_1">19</td>
+<td style="text-align: left;" class="numcol"><a href="statedashboard.do?method=showSubdistrictDrillReport&amp;grampanchayatcode=2917004013&amp;gpname=PONPARAPPI">PONPARAPPI</a></td>
+
+<td style="text-align: left;" class="numcol">IGNOAPS</td>
+<td style="text-align: right;" class="numcol">177</td> 
+<td style="text-align: right;" class="numcol">177</td>
+<td style="text-align: right;" class="numcol">0</td>
+<td style="text-align: right;" class="numcol">0</td>
+<td style="text-align: right;" class="numcol">0</td>
+
+<td style="text-align: right;" class="numcol">17</td>
+<td style="text-align: right;" class="numcol">15</td>
+<td style="text-align: right;" class="numcol">0</td>
+
+</tr><tr role="row" class="even">
+
+
+<td style="text-align: right;" class="numcol strcol sorting_1">20</td>
+<td style="text-align: left;" class="numcol"><a href="statedashboard.do?method=showSubdistrictDrillReport&amp;grampanchayatcode=2917004001&amp;gpname=SANNASINALLUR">SANNASINALLUR</a></td>
+
+<td style="text-align: left;" class="numcol">IGNOAPS</td>
+<td style="text-align: right;" class="numcol">148</td> 
+<td style="text-align: right;" class="numcol">148</td>
+<td style="text-align: right;" class="numcol">0</td>
+<td style="text-align: right;" class="numcol">0</td>
+<td style="text-align: right;" class="numcol">0</td>
+
+<td style="text-align: right;" class="numcol">7</td>
+<td style="text-align: right;" class="numcol">7</td>
+<td style="text-align: right;" class="numcol">0</td>
+
+</tr><tr role="row" class="odd">
+
+
+<td style="text-align: right;" class="numcol strcol sorting_1">21</td>
+<td style="text-align: left;" class="numcol"><a href="statedashboard.do?method=showSubdistrictDrillReport&amp;grampanchayatcode=2917004028&amp;gpname=SENDHURAI">SENDHURAI</a></td>
+
+<td style="text-align: left;" class="numcol">IGNOAPS</td>
+<td style="text-align: right;" class="numcol">355</td> 
+<td style="text-align: right;" class="numcol">352</td>
+<td style="text-align: right;" class="numcol">0</td>
+<td style="text-align: right;" class="numcol">0</td>
+<td style="text-align: right;" class="numcol">0</td>
+
+<td style="text-align: right;" class="numcol">87</td>
+<td style="text-align: right;" class="numcol">79</td>
+<td style="text-align: right;" class="numcol">0</td>
+
+</tr><tr role="row" class="even">
+
+
+<td style="text-align: right;" class="numcol strcol sorting_1">22</td>
+<td style="text-align: left;" class="numcol"><a href="statedashboard.do?method=showSubdistrictDrillReport&amp;grampanchayatcode=2917004020&amp;gpname=SIRUKADAMBUR">SIRUKADAMBUR</a></td>
+
+<td style="text-align: left;" class="numcol">IGNOAPS</td>
+<td style="text-align: right;" class="numcol">146</td> 
+<td style="text-align: right;" class="numcol">145</td>
+<td style="text-align: right;" class="numcol">0</td>
+<td style="text-align: right;" class="numcol">0</td>
+<td style="text-align: right;" class="numcol">0</td>
+
+<td style="text-align: right;" class="numcol">13</td>
+<td style="text-align: right;" class="numcol">13</td>
+<td style="text-align: right;" class="numcol">0</td>
+
+</tr><tr role="row" class="odd">
+
+
+<td style="text-align: right;" class="numcol strcol sorting_1">23</td>
+<td style="text-align: left;" class="numcol"><a href="statedashboard.do?method=showSubdistrictDrillReport&amp;grampanchayatcode=2917004012&amp;gpname=SIRUKALATHUR">SIRUKALATHUR</a></td>
+
+<td style="text-align: left;" class="numcol">IGNOAPS</td>
+<td style="text-align: right;" class="numcol">141</td> 
+<td style="text-align: right;" class="numcol">139</td>
+<td style="text-align: right;" class="numcol">0</td>
+<td style="text-align: right;" class="numcol">0</td>
+<td style="text-align: right;" class="numcol">0</td>
+
+<td style="text-align: right;" class="numcol">2</td>
+<td style="text-align: right;" class="numcol">2</td>
+<td style="text-align: right;" class="numcol">0</td>
+
+</tr><tr role="row" class="even">
+
+
+<td style="text-align: right;" class="numcol strcol sorting_1">24</td>
+<td style="text-align: left;" class="numcol"><a href="statedashboard.do?method=showSubdistrictDrillReport&amp;grampanchayatcode=2917004002&amp;gpname=THALAVAI(N)">THALAVAI(N)</a></td>
+
+<td style="text-align: left;" class="numcol">IGNOAPS</td>
+<td style="text-align: right;" class="numcol">83</td> 
+<td style="text-align: right;" class="numcol">82</td>
+<td style="text-align: right;" class="numcol">0</td>
+<td style="text-align: right;" class="numcol">0</td>
+<td style="text-align: right;" class="numcol">0</td>
+
+<td style="text-align: right;" class="numcol">24</td>
+<td style="text-align: right;" class="numcol">22</td>
+<td style="text-align: right;" class="numcol">0</td>
+
+</tr><tr role="row" class="odd">
+
+
+<td style="text-align: right;" class="numcol strcol sorting_1">25</td>
+<td style="text-align: left;" class="numcol"><a href="statedashboard.do?method=showSubdistrictDrillReport&amp;grampanchayatcode=2917004003&amp;gpname=THALAVAI(S)">THALAVAI(S)</a></td>
+
+<td style="text-align: left;" class="numcol">IGNOAPS</td>
+<td style="text-align: right;" class="numcol">142</td> 
+<td style="text-align: right;" class="numcol">141</td>
+<td style="text-align: right;" class="numcol">0</td>
+<td style="text-align: right;" class="numcol">0</td>
+<td style="text-align: right;" class="numcol">0</td>
+
+<td style="text-align: right;" class="numcol">31</td>
+<td style="text-align: right;" class="numcol">29</td>
+<td style="text-align: right;" class="numcol">0</td>
+
+</tr><tr role="row" class="even">
+
+
+<td style="text-align: right;" class="numcol strcol sorting_1">26</td>
+<td style="text-align: left;" class="numcol"><a href="statedashboard.do?method=showSubdistrictDrillReport&amp;grampanchayatcode=2917004011&amp;gpname=THULAR">THULAR</a></td>
+
+<td style="text-align: left;" class="numcol">IGNOAPS</td>
+<td style="text-align: right;" class="numcol">75</td> 
+<td style="text-align: right;" class="numcol">75</td>
+<td style="text-align: right;" class="numcol">0</td>
+<td style="text-align: right;" class="numcol">0</td>
+<td style="text-align: right;" class="numcol">0</td>
+
+<td style="text-align: right;" class="numcol">5</td>
+<td style="text-align: right;" class="numcol">5</td>
+<td style="text-align: right;" class="numcol">0</td>
+
+</tr><tr role="row" class="odd">
+
+
+<td style="text-align: right;" class="numcol strcol sorting_1">27</td>
+<td style="text-align: left;" class="numcol"><a href="statedashboard.do?method=showSubdistrictDrillReport&amp;grampanchayatcode=2917004022&amp;gpname=UNJINI">UNJINI</a></td>
+
+<td style="text-align: left;" class="numcol">IGNOAPS</td>
+<td style="text-align: right;" class="numcol">234</td> 
+<td style="text-align: right;" class="numcol">232</td>
+<td style="text-align: right;" class="numcol">0</td>
+<td style="text-align: right;" class="numcol">0</td>
+<td style="text-align: right;" class="numcol">0</td>
+
+<td style="text-align: right;" class="numcol">21</td>
+<td style="text-align: right;" class="numcol">19</td>
+<td style="text-align: right;" class="numcol">0</td>
+
+</tr><tr role="row" class="even">
+
+
+<td style="text-align: right;" class="numcol strcol sorting_1">28</td>
+<td style="text-align: left;" class="numcol"><a href="statedashboard.do?method=showSubdistrictDrillReport&amp;grampanchayatcode=2917004025&amp;gpname=VANJINAPURAM">VANJINAPURAM</a></td>
+
+<td style="text-align: left;" class="numcol">IGNOAPS</td>
+<td style="text-align: right;" class="numcol">135</td> 
+<td style="text-align: right;" class="numcol">134</td>
+<td style="text-align: right;" class="numcol">0</td>
+<td style="text-align: right;" class="numcol">0</td>
+<td style="text-align: right;" class="numcol">0</td>
+
+<td style="text-align: right;" class="numcol">13</td>
+<td style="text-align: right;" class="numcol">12</td>
+<td style="text-align: right;" class="numcol">0</td>
+
+</tr></tbody>
+
+
+
+</table></div><div class="dataTables_scrollFoot" style="overflow: hidden; border: 0px; width: 100%;"><div class="dataTables_scrollFootInner" style="width: 885.047px; padding-right: 8px;"><table class="table table-bordered table-striped order-column dataTable" style="width: 885.047px; margin-left: 0px;" role="grid"><tfoot class="bg-info">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<tr><td style="text-align: left; width: 212.375px;" colspan="2" rowspan="1"><b>GRAND TOTAL</b></td><td style="text-align: left; width: 77.1562px;" rowspan="1" colspan="1">IGNOAPS</td><td style="text-align: right; width: 89.4062px;" rowspan="1" colspan="1">4313</td><td style="text-align: right; width: 70.8281px;" rowspan="1" colspan="1">0</td><td style="text-align: right; width: 70.8281px;" rowspan="1" colspan="1">0</td><td style="text-align: right; width: 70.8281px;" rowspan="1" colspan="1">0</td><td style="text-align: right; width: 70.8281px;" rowspan="1" colspan="1">2575</td><td style="text-align: right; width: 64.0938px;" rowspan="1" colspan="1">655</td><td style="text-align: right; width: 71.5156px;" rowspan="1" colspan="1">606</td><td style="text-align: right; width: 86.1875px;" rowspan="1" colspan="1">0</td></tr>
+
+
+    </tfoot></table></div></div></div><div class="dataTables_info" id="exportDataTable_info" role="status" aria-live="polite">Showing 1 to 28 of 28 entries</div></div>
+This report includes only sanctioned pensioners.
+<span class="waves-input-wrapper waves-effect waves-light"><input type="button" class="btn btn-primary" value="Print" onclick="printDiv('printPage')"></span>
+<a href="javascript:doNothing()" onclick="stateGoBack('statedashboard.do?method=getBackValueList&amp;level=subdistrict')"><span class="waves-input-wrapper waves-effect waves-light"><input type="button" name="back" value="Back" class="btn btn-primary"></span></a>
+<span class="waves-input-wrapper waves-effect waves-light"><input type="button" class="btn btn-primary" onclick="tableToExcel('gmtb2excel', 'W3C Example Table')" value="Export to Excel"></span>
+
+            </div>
+            
+            
+        
+        
+        
+        
+        
+                
+        
+</div>		
+        
+    </div>
+</div>

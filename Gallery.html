@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Gallery</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
+<style>
+body {font-family: "Raleway", Arial, sans-serif}
+.w3-row img {margin-bottom: -8px}
+    /*  */
+    .navbarGallery{
+	position: fixed;
+  background-color: aquamarine;
+	height: 100px;
+	width: 100%;
+  margin-top: -20px;
+	left: 0;
+	
+}
+.navbarGallery .logo{
+	float: left;
+	width: 200px;
+	height: auto;
+	padding: 0px 0px;
+	font-size: 30px;
+	
+	color: white;
+	
+	text-decoration: none;
+}
+
+
+.navbarGallery ul{
+	float: right;
+	margin-right: auto;
+}
+.navbarGallery ul li{
+	list-style: none;
+	margin: 0 8px;
+	display: inline-table;
+	line-height: 80px;
+}
+.navbarGallery ul li a{
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	padding: 6px 13px;
+	text-decoration: none;
+	transition: .4s;
+	text-shadow: -1px 1px 0 #000,
+                          1px 1px 0 #000,
+                         1px -1px 0 #000,
+                        -1px -1px 0 #000;
+}
+.navbarGallery ul li a.active,
+.navbarGallery ul li a:hover{
+	background: red;
+	border-radius: 2px;
+}
+</style>
+</head>
+<body>
+  <div class="navTextGallery">
+    <nav class="navbarGallery">
+    <ul>	
+        <li><a href="index.php">Home</a></li>
+        <li><a href="About Us.html">About Us</a></li>
+        <li><a href="Guidelines.html">Guidelines</a></li>
+        <li><a href="Reports.html">Reports</a></li>
+        <li><a href="FAQ.html">FAQ</a></li>
+        <li><a href="Contact us.html">Contact us</a></li>
+        <li><a class="active" href="#">Gallery</a></li>
+        <li><a href="inde.php">Apply</a></li>
+      </ul>
+    </nav>
+  </div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-content" style="max-width:1500px;">
+
+  <!-- Header -->
+  <header class="w3-container w3-xlarge w3-padding-24"> 
+  <!-- Photo Grid -->
+  <div class="w3-row">
+    <div class="w3-half">
+      <img src="image 1.jpg" style="width:100%">
+      <img src="image 2.jpeg" style="width:100%">
+      <img src="image 3.jpg" style="width:100%">
+    </div>
+
+    <div class="w3-half">
+      <img src="image.jpg" style="width:100%">
+      <img src="image 4.jpg" style="width:100%">
+    </div>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,1209 @@
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+<form name="statedashboardForm" method="POST" action="/statedashboard.html">
+	<div id="printPage" style="overflow-x:hidden!important ;width:100%">
+		
+		<div class="card">
+			<div class="card-body pb-2">
+				<div class="center">
+					<img src="images/wait_progress.gif" id="computePensionLoading" style="display: none; margin-top: 10px;">
+				</div>
+				<div id="printPage" style="overflow-x:hidden!important ;width:100%">
+
+
+					
+		<h3 class="secondary-heading">
+			TAMIL NADU
+		</h3>
+		<!-- Summary tabs -->
+		<div class="summary-tabs p-0">
+			<ul class="nav mx-0 p-0 nav-jus tified md-tabs bg-white" role="tablist">
+				 
+				<li class="nav-item note note-danger col-xs-6 col-md-3 col-lg-2 my-1">
+					<a class="nav-link btn-outline-danger waves-effect w-100 text-center"><h4 class="mb-0">
+							1939303
+						</h4>State Cap</a>
+				</li>
+				
+				<li class="nav-item note note-primary col-xs-6 col-md-3 col-lg-2 my-1">
+					<a class="nav-link btn-outline-primary waves-effect w-100 text-center">
+						<h4 class="mb-0">
+							1620477
+						</h4>Total Beneficiary
+				</a>
+				</li>
+				<li class="nav-item note note-secondary col-xs-6 col-md-3 col-lg-2 my-1">
+					<a class="nav-link btn-outline-default waves-effect w-100 text-center"><h4 class="mb-0">
+							1592409
+						</h4>Total Bank A/C</a>
+				</li>
+				<li class="nav-item note note-secondary col-xs-6 col-md-3 col-lg-2 my-1">
+					<a class="nav-link btn-outline-secondary waves-effect w-100 text-center"><h4 class="mb-0">
+							0
+						</h4>Total P.O A/C</a>
+				</li>
+				<li class="nav-item note note-success col-xs-6 col-md-3 col-lg-2 my-1">
+					<a class="nav-link btn-outline-success waves-effect w-100 text-center"><h4 class="mb-0">
+							28068
+						</h4>Total M.O A/C</a>
+				</li>
+				<li class="nav-item note note-info col-xs-6 col-md-3 col-lg-2 my-1">
+					<a class="nav-link btn-outline-info waves-effect w-100 text-center"><h4 class="mb-0">
+							0
+						</h4>Total Cash A/C</a>
+				</li>
+				
+				<li class="nav-item note note-primary col-xs-6 col-md-3 col-lg-2 my-1">
+					<a class="nav-link btn-outline-primary waves-effect w-100 text-center"><h4 class="mb-0">
+							747149
+						</h4>Total Aadhar</a>
+				</li>
+				
+				<li class="nav-item note note-secondary col-xs-6 col-md-3 col-lg-2 my-1">
+					<a class="nav-link btn-outline-secondary waves-effect w-100 text-center"><h4 class="mb-0">
+							0
+						</h4>Paid Through DBT</a>
+				</li>
+				<li class="nav-item note note-success col-xs-6 col-md-3 col-lg-2 my-1">
+					<a class="nav-link btn-outline-success waves-effect w-100 text-center"><h4 class="mb-0">
+							652699
+						</h4>Male</a>
+				</li>
+				<li class="nav-item note note-info col-xs-6 col-md-3 col-lg-2 my-1">
+					<a class="nav-link btn-outline-info waves-effect w-100 text-center"><h4 class="mb-0">
+							967715
+						</h4>Female</a>
+				</li>
+				<li class="nav-item note note-danger col-xs-6 col-md-3 col-lg-2 my-1">
+					<a class="nav-link btn-outline-danger waves-effect w-100 text-center"><h4 class="mb-0">
+							63
+						</h4>Transgender</a>
+				</li>
+				
+			</ul>
+			
+		</div>
+		<!-- Summary tabs -->
+		<hr>
+		<div class="table-responsive">
+			<div style="overflow-x:hidden!important ;width:100%">
+<div id="exportDataTable_wrapper" class="dataTables_wrapper dt-bootstrap4"><div class="dt-buttons btn-group">   <button class="btn btn-secondary buttons-excel buttons-html5" tabindex="0" aria-controls="exportDataTable" type="button"><span>Excel</span></button> <button class="btn btn-secondary buttons-pdf buttons-html5" tabindex="0" aria-controls="exportDataTable" type="button"><span>PDF</span></button> <button class="btn btn-secondary buttons-print" tabindex="0" aria-controls="exportDataTable" type="button"><span>Print</span></button> </div><div id="exportDataTable_filter" class="dataTables_filter"><label>Search:<input type="search" class="form-control form-control-sm" placeholder="" aria-controls="exportDataTable"></label></div><div class="dataTables_scroll"><div class="dataTables_scrollHead" style="overflow: hidden; position: relative; border: 0px; width: 100%;"><div class="dataTables_scrollHeadInner" style="box-sizing: content-box; width: 801.641px; padding-right: 8px;"><table class="table table-bordered table-striped order-column dataTable" style="width: 801.641px; margin-left: 0px;" role="grid"><thead class="font-smaller"><tr role="row"><th colspan="11" align="right" rowspan="1">IGNOAPS</th></tr>
+<tr role="row"><th style="text-align: center; width: 47.9688px;" class="sorting" tabindex="0" aria-controls="exportDataTable" rowspan="1" colspan="1" aria-label="S.No: activate to sort column ascending">S.No</th><th style="text-align: center; width: 152px;" class="sorting" tabindex="0" aria-controls="exportDataTable" rowspan="1" colspan="1" aria-label="District: activate to sort column ascending">District</th><th style="text-align: center; width: 77.1562px;" class="sorting" tabindex="0" aria-controls="exportDataTable" rowspan="1" colspan="1" aria-label="Scheme: activate to sort column ascending">Scheme</th><th style="text-align: center; width: 89.4062px;" class="sorting" tabindex="0" aria-controls="exportDataTable" rowspan="1" colspan="1" aria-label="Total Beneficiary: activate to sort column ascending">Total Beneficiary</th><th style="text-align: center; width: 71.3438px;" class="sorting" tabindex="0" aria-controls="exportDataTable" rowspan="1" colspan="1" aria-label="Total Bank Account: activate to sort column ascending">Total Bank Account</th><th style="text-align: center; width: 70.8281px;" class="sorting" tabindex="0" aria-controls="exportDataTable" rowspan="1" colspan="1" aria-label="Total P.O  Account: activate to sort column ascending">Total P.O  Account</th><th style="text-align: center; width: 70.8281px;" class="sorting" tabindex="0" aria-controls="exportDataTable" rowspan="1" colspan="1" aria-label="Total M.O Account: activate to sort column ascending">Total M.O Account</th><th style="text-align: center; width: 70.8281px;" class="sorting_asc" tabindex="0" aria-controls="exportDataTable" rowspan="1" colspan="1" aria-label="Total Cash Account: activate to sort column descending" aria-sort="ascending">Total Cash Account</th><th style="text-align: center; width: 64.0938px;" class="sorting" tabindex="0" aria-controls="exportDataTable" rowspan="1" colspan="1" aria-label="Total Aadhar : activate to sort column ascending">Total Aadhar </th><th style="text-align: center; width: 86.1875px;" class="sorting" tabindex="0" aria-controls="exportDataTable" rowspan="1" colspan="1" aria-label="PFMS Registered: activate to sort column ascending">PFMS Registered</th></tr></thead></table></div></div><div class="dataTables_scrollBody" style="position: relative; overflow: auto; width: 100%; max-height: 300px;"><table id="exportDataTable" class="table table-bordered table-striped order-column dataTable" style="width: 100%;" role="grid" aria-describedby="exportDataTable_info"><thead class="font-smaller"><tr role="row" style="height: 2px;"><th colspan="11" align="right" rowspan="1" style="padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px; width: 800.641px;"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;">IGNOAPS</div></th></tr>
+<tr role="row" style="height: 2px;"><th style="text-align: center; width: 47.9688px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;" class="sorting" aria-controls="exportDataTable" rowspan="1" colspan="1" aria-label="S.No: activate to sort column ascending"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;">S.No</div></th><th style="text-align: center; width: 152px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;" class="sorting" aria-controls="exportDataTable" rowspan="1" colspan="1" aria-label="District: activate to sort column ascending"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;">District</div></th><th style="text-align: center; width: 77.1562px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;" class="sorting" aria-controls="exportDataTable" rowspan="1" colspan="1" aria-label="Scheme: activate to sort column ascending"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;">Scheme</div></th><th style="text-align: center; width: 89.4062px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;" class="sorting" aria-controls="exportDataTable" rowspan="1" colspan="1" aria-label="Total Beneficiary: activate to sort column ascending"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;">Total Beneficiary</div></th><th style="text-align: center; width: 71.3438px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;" class="sorting" aria-controls="exportDataTable" rowspan="1" colspan="1" aria-label="Total Bank Account: activate to sort column ascending"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;">Total Bank Account</div></th><th style="text-align: center; width: 70.8281px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;" class="sorting" aria-controls="exportDataTable" rowspan="1" colspan="1" aria-label="Total P.O  Account: activate to sort column ascending"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;">Total P.O  Account</div></th><th style="text-align: center; width: 70.8281px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;" class="sorting" aria-controls="exportDataTable" rowspan="1" colspan="1" aria-label="Total M.O Account: activate to sort column ascending"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;">Total M.O Account</div></th><th style="text-align: center; width: 70.8281px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;" class="sorting_asc" aria-controls="exportDataTable" rowspan="1" colspan="1" aria-label="Total Cash Account: activate to sort column descending" aria-sort="ascending"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;">Total Cash Account</div></th><th style="text-align: center; width: 64.0938px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;" class="sorting" aria-controls="exportDataTable" rowspan="1" colspan="1" aria-label="Total Aadhar : activate to sort column ascending"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;">Total Aadhar </div></th><th style="text-align: center; width: 86.1875px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;" class="sorting" aria-controls="exportDataTable" rowspan="1" colspan="1" aria-label="PFMS Registered: activate to sort column ascending"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;">PFMS Registered</div></th></tr></thead><tfoot class="bg-info">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<tr style="height: 2px;"><td colspan="2" rowspan="1" style="padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px; width: 199.969px;"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;"><b>GRAND TOTAL</b></div></td><td style="text-align: left; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px; width: 77.1562px;" rowspan="1" colspan="1"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;">IGNOAPS</div></td><td style="text-align: right; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px; width: 89.4062px;" rowspan="1" colspan="1"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;">1620477</div></td><td style="text-align: right; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px; width: 71.3438px;" rowspan="1" colspan="1"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;">1592409</div></td><td style="text-align: right; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px; width: 70.8281px;" rowspan="1" colspan="1"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;">0</div></td><td style="text-align: right; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px; width: 70.8281px;" rowspan="1" colspan="1"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;">28068</div></td><td style="text-align: right; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px; width: 70.8281px;" rowspan="1" colspan="1"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;">0</div></td><td style="text-align: right; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px; width: 64.0938px;" rowspan="1" colspan="1"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;">747149</div></td><td style="text-align: right; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px; width: 86.1875px;" rowspan="1" colspan="1"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;">0</div></td></tr>
+
+
+</tfoot>
+
+
+<tbody>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<tr role="row" class="odd">
+
+
+<td style="text-align: right;" class="numcol strcol">1</td>
+<td style="text-align: left;" class="numcol">
+<a href="ARIYALUR.html">
+ARIYALUR
+</a></td>
+
+<td style="text-align: left;" class="numcol">IGNOAPS</td>
+
+<td style="text-align: right;" class="numcol">18776</td>
+<td style="text-align: right;" class="numcol">18359</td>
+<td style="text-align: right;" class="numcol">0</td>
+<td style="text-align: right;" class="numcol">417</td>
+<td style="text-align: right;" class="numcol sorting_1">0</td>
+
+<td style="text-align: right;" class="numcol">12113</td>
+
+<td style="text-align: right;" class="numcol">0</td>
+</tr><tr role="row" class="even">
+
+
+<td style="text-align: right;" class="numcol strcol">2</td>
+<td style="text-align: left;" class="numcol">
+<a href="CHENGALPATTU">
+CHENGALPATTU
+</a></td>
+
+<td style="text-align: left;" class="numcol">IGNOAPS</td>
+
+<td style="text-align: right;" class="numcol">0</td>
+<td style="text-align: right;" class="numcol">0</td>
+<td style="text-align: right;" class="numcol">0</td>
+<td style="text-align: right;" class="numcol">0</td>
+<td style="text-align: right;" class="numcol sorting_1">0</td>
+
+<td style="text-align: right;" class="numcol">0</td>
+
+<td style="text-align: right;" class="numcol">0</td>
+</tr><tr role="row" class="odd">
+
+
+<td style="text-align: right;" class="numcol strcol">3</td>
+<td style="text-align: left;" class="numcol">
+<a href="CHENNAI.html">
+CHENNAI
+</a></td>
+
+<td style="text-align: left;" class="numcol">IGNOAPS</td>
+
+<td style="text-align: right;" class="numcol">59256</td>
+<td style="text-align: right;" class="numcol">56997</td>
+<td style="text-align: right;" class="numcol">0</td>
+<td style="text-align: right;" class="numcol">2259</td>
+<td style="text-align: right;" class="numcol sorting_1">0</td>
+
+<td style="text-align: right;" class="numcol">17472</td>
+
+<td style="text-align: right;" class="numcol">0</td>
+</tr><tr role="row" class="even">
+
+
+<td style="text-align: right;" class="numcol strcol">4</td>
+<td style="text-align: left;" class="numcol">
+<a href="COIMBATORE.html">
+COIMBATORE
+</a></td>
+
+<td style="text-align: left;" class="numcol">IGNOAPS</td>
+
+<td style="text-align: right;" class="numcol">84193</td>
+<td style="text-align: right;" class="numcol">82732</td>
+<td style="text-align: right;" class="numcol">0</td>
+<td style="text-align: right;" class="numcol">1461</td>
+<td style="text-align: right;" class="numcol sorting_1">0</td>
+
+<td style="text-align: right;" class="numcol">50546</td>
+
+<td style="text-align: right;" class="numcol">0</td>
+</tr><tr role="row" class="odd">
+
+
+<td style="text-align: right;" class="numcol strcol">5</td>
+<td style="text-align: left;" class="numcol">
+<a href="CUDDALORE.html">
+CUDDALORE
+</a></td>
+
+<td style="text-align: left;" class="numcol">IGNOAPS</td>
+
+<td style="text-align: right;" class="numcol">81595</td>
+<td style="text-align: right;" class="numcol">80940</td>
+<td style="text-align: right;" class="numcol">0</td>
+<td style="text-align: right;" class="numcol">655</td>
+<td style="text-align: right;" class="numcol sorting_1">0</td>
+
+<td style="text-align: right;" class="numcol">46932</td>
+
+<td style="text-align: right;" class="numcol">0</td>
+</tr><tr role="row" class="even">
+
+
+<td style="text-align: right;" class="numcol strcol">6</td>
+<td style="text-align: left;" class="numcol">
+<a href="DHARMAPURI.html">
+DHARMAPURI
+</a></td>
+
+<td style="text-align: left;" class="numcol">IGNOAPS</td>
+
+<td style="text-align: right;" class="numcol">43114</td>
+<td style="text-align: right;" class="numcol">42851</td>
+<td style="text-align: right;" class="numcol">0</td>
+<td style="text-align: right;" class="numcol">263</td>
+<td style="text-align: right;" class="numcol sorting_1">0</td>
+
+<td style="text-align: right;" class="numcol">23341</td>
+
+<td style="text-align: right;" class="numcol">0</td>
+</tr><tr role="row" class="odd">
+
+
+<td style="text-align: right;" class="numcol strcol">7</td>
+<td style="text-align: left;" class="numcol">
+<a href="DINDIGUL.html">
+DINDIGUL
+</a></td>
+
+<td style="text-align: left;" class="numcol">IGNOAPS</td>
+
+<td style="text-align: right;" class="numcol">28092</td>
+<td style="text-align: right;" class="numcol">27913</td>
+<td style="text-align: right;" class="numcol">0</td>
+<td style="text-align: right;" class="numcol">179</td>
+<td style="text-align: right;" class="numcol sorting_1">0</td>
+
+<td style="text-align: right;" class="numcol">9412</td>
+
+<td style="text-align: right;" class="numcol">0</td>
+</tr><tr role="row" class="even">
+
+
+<td style="text-align: right;" class="numcol strcol">8</td>
+<td style="text-align: left;" class="numcol">
+<a href="ERODE.html">
+ERODE
+</a></td>
+
+<td style="text-align: left;" class="numcol">IGNOAPS</td>
+
+<td style="text-align: right;" class="numcol">70325</td>
+<td style="text-align: right;" class="numcol">69516</td>
+<td style="text-align: right;" class="numcol">0</td>
+<td style="text-align: right;" class="numcol">809</td>
+<td style="text-align: right;" class="numcol sorting_1">0</td>
+
+<td style="text-align: right;" class="numcol">45604</td>
+
+<td style="text-align: right;" class="numcol">0</td>
+</tr><tr role="row" class="odd">
+
+
+<td style="text-align: right;" class="numcol strcol">9</td>
+<td style="text-align: left;" class="numcol">
+<a href="KALLAKURICHI">
+KALLAKURICHI
+</a></td>
+
+<td style="text-align: left;" class="numcol">IGNOAPS</td>
+
+<td style="text-align: right;" class="numcol">0</td>
+<td style="text-align: right;" class="numcol">0</td>
+<td style="text-align: right;" class="numcol">0</td>
+<td style="text-align: right;" class="numcol">0</td>
+<td style="text-align: right;" class="numcol sorting_1">0</td>
+
+<td style="text-align: right;" class="numcol">0</td>
+
+<td style="text-align: right;" class="numcol">0</td>
+</tr><tr role="row" class="even">
+
+
+<td style="text-align: right;" class="numcol strcol">10</td>
+<td style="text-align: left;" class="numcol">
+<a href="KANCHEEPURAM.html">
+KANCHEEPURAM
+</a></td>
+
+<td style="text-align: left;" class="numcol">IGNOAPS</td>
+
+<td style="text-align: right;" class="numcol">64251</td>
+<td style="text-align: right;" class="numcol">61845</td>
+<td style="text-align: right;" class="numcol">0</td>
+<td style="text-align: right;" class="numcol">2406</td>
+<td style="text-align: right;" class="numcol sorting_1">0</td>
+
+<td style="text-align: right;" class="numcol">23005</td>
+
+<td style="text-align: right;" class="numcol">0</td>
+</tr><tr role="row" class="odd">
+
+
+<td style="text-align: right;" class="numcol strcol">11</td>
+<td style="text-align: left;" class="numcol">
+<a href="KANYAKUMARI.html">
+KANYAKUMARI
+</a></td>
+
+<td style="text-align: left;" class="numcol">IGNOAPS</td>
+
+<td style="text-align: right;" class="numcol">34914</td>
+<td style="text-align: right;" class="numcol">34143</td>
+<td style="text-align: right;" class="numcol">0</td>
+<td style="text-align: right;" class="numcol">771</td>
+<td style="text-align: right;" class="numcol sorting_1">0</td>
+
+<td style="text-align: right;" class="numcol">16214</td>
+
+<td style="text-align: right;" class="numcol">0</td>
+</tr><tr role="row" class="even">
+
+
+<td style="text-align: right;" class="numcol strcol">12</td>
+<td style="text-align: left;" class="numcol">
+<a href="KARUR.html">
+KARUR
+</a></td>
+
+<td style="text-align: left;" class="numcol">IGNOAPS</td>
+
+<td style="text-align: right;" class="numcol">26129</td>
+<td style="text-align: right;" class="numcol">25842</td>
+<td style="text-align: right;" class="numcol">0</td>
+<td style="text-align: right;" class="numcol">287</td>
+<td style="text-align: right;" class="numcol sorting_1">0</td>
+
+<td style="text-align: right;" class="numcol">15130</td>
+
+<td style="text-align: right;" class="numcol">0</td>
+</tr><tr role="row" class="odd">
+
+
+<td style="text-align: right;" class="numcol strcol">13</td>
+<td style="text-align: left;" class="numcol">
+<a href="KRISHNAGIRI.html">
+KRISHNAGIRI
+</a></td>
+
+<td style="text-align: left;" class="numcol">IGNOAPS</td>
+
+<td style="text-align: right;" class="numcol">24430</td>
+<td style="text-align: right;" class="numcol">24239</td>
+<td style="text-align: right;" class="numcol">0</td>
+<td style="text-align: right;" class="numcol">191</td>
+<td style="text-align: right;" class="numcol sorting_1">0</td>
+
+<td style="text-align: right;" class="numcol">7965</td>
+
+<td style="text-align: right;" class="numcol">0</td>
+</tr><tr role="row" class="even">
+
+
+<td style="text-align: right;" class="numcol strcol">14</td>
+<td style="text-align: left;" class="numcol">
+<a href="MADURAI.html">
+MADURAI
+</a></td>
+
+<td style="text-align: left;" class="numcol">IGNOAPS</td>
+
+<td style="text-align: right;" class="numcol">59464</td>
+<td style="text-align: right;" class="numcol">58596</td>
+<td style="text-align: right;" class="numcol">0</td>
+<td style="text-align: right;" class="numcol">868</td>
+<td style="text-align: right;" class="numcol sorting_1">0</td>
+
+<td style="text-align: right;" class="numcol">21980</td>
+
+<td style="text-align: right;" class="numcol">0</td>
+</tr><tr role="row" class="odd">
+
+
+<td style="text-align: right;" class="numcol strcol">15</td>
+<td style="text-align: left;" class="numcol">
+<a href="MAYILADUTHURAI">
+MAYILADUTHURAI
+</a></td>
+
+<td style="text-align: left;" class="numcol">IGNOAPS</td>
+
+<td style="text-align: right;" class="numcol">0</td>
+<td style="text-align: right;" class="numcol">0</td>
+<td style="text-align: right;" class="numcol">0</td>
+<td style="text-align: right;" class="numcol">0</td>
+<td style="text-align: right;" class="numcol sorting_1">0</td>
+
+<td style="text-align: right;" class="numcol">0</td>
+
+<td style="text-align: right;" class="numcol">0</td>
+</tr><tr role="row" class="even">
+
+
+<td style="text-align: right;" class="numcol strcol">16</td>
+<td style="text-align: left;" class="numcol">
+<a href="NAGAPATTINAM.html">
+NAGAPATTINAM
+</a></td>
+
+<td style="text-align: left;" class="numcol">IGNOAPS</td>
+
+<td style="text-align: right;" class="numcol">45987</td>
+<td style="text-align: right;" class="numcol">45130</td>
+<td style="text-align: right;" class="numcol">0</td>
+<td style="text-align: right;" class="numcol">857</td>
+<td style="text-align: right;" class="numcol sorting_1">0</td>
+
+<td style="text-align: right;" class="numcol">21337</td>
+
+<td style="text-align: right;" class="numcol">0</td>
+</tr><tr role="row" class="odd">
+
+
+<td style="text-align: right;" class="numcol strcol">17</td>
+<td style="text-align: left;" class="numcol">
+<a href="NAMAKKAL.html">
+NAMAKKAL
+</a></td>
+
+<td style="text-align: left;" class="numcol">IGNOAPS</td>
+
+<td style="text-align: right;" class="numcol">55884</td>
+<td style="text-align: right;" class="numcol">55105</td>
+<td style="text-align: right;" class="numcol">0</td>
+<td style="text-align: right;" class="numcol">779</td>
+<td style="text-align: right;" class="numcol sorting_1">0</td>
+
+<td style="text-align: right;" class="numcol">25635</td>
+
+<td style="text-align: right;" class="numcol">0</td>
+</tr><tr role="row" class="even">
+
+
+<td style="text-align: right;" class="numcol strcol">18</td>
+<td style="text-align: left;" class="numcol">
+<a href="PERAMBALUR.html">
+PERAMBALUR
+</a></td>
+
+<td style="text-align: left;" class="numcol">IGNOAPS</td>
+
+<td style="text-align: right;" class="numcol">20211</td>
+<td style="text-align: right;" class="numcol">20022</td>
+<td style="text-align: right;" class="numcol">0</td>
+<td style="text-align: right;" class="numcol">189</td>
+<td style="text-align: right;" class="numcol sorting_1">0</td>
+
+<td style="text-align: right;" class="numcol">15520</td>
+
+<td style="text-align: right;" class="numcol">0</td>
+</tr><tr role="row" class="odd">
+
+
+<td style="text-align: right;" class="numcol strcol">19</td>
+<td style="text-align: left;" class="numcol">
+<a href="PUDUKKOTTAI.html">
+PUDUKKOTTAI
+</a></td>
+
+<td style="text-align: left;" class="numcol">IGNOAPS</td>
+
+<td style="text-align: right;" class="numcol">26818</td>
+<td style="text-align: right;" class="numcol">26446</td>
+<td style="text-align: right;" class="numcol">0</td>
+<td style="text-align: right;" class="numcol">372</td>
+<td style="text-align: right;" class="numcol sorting_1">0</td>
+
+<td style="text-align: right;" class="numcol">10416</td>
+
+<td style="text-align: right;" class="numcol">0</td>
+</tr><tr role="row" class="even">
+
+
+<td style="text-align: right;" class="numcol strcol">20</td>
+<td style="text-align: left;" class="numcol">
+<a href="RAMANATHAPURAM.html">
+RAMANATHAPURAM
+</a></td>
+
+<td style="text-align: left;" class="numcol">IGNOAPS</td>
+
+<td style="text-align: right;" class="numcol">47913</td>
+<td style="text-align: right;" class="numcol">47683</td>
+<td style="text-align: right;" class="numcol">0</td>
+<td style="text-align: right;" class="numcol">230</td>
+<td style="text-align: right;" class="numcol sorting_1">0</td>
+
+<td style="text-align: right;" class="numcol">23845</td>
+
+<td style="text-align: right;" class="numcol">0</td>
+</tr><tr role="row" class="odd">
+
+
+<td style="text-align: right;" class="numcol strcol">21</td>
+<td style="text-align: left;" class="numcol">
+<a href="RANIPET">
+RANIPET
+</a></td>
+
+<td style="text-align: left;" class="numcol">IGNOAPS</td>
+
+<td style="text-align: right;" class="numcol">0</td>
+<td style="text-align: right;" class="numcol">0</td>
+<td style="text-align: right;" class="numcol">0</td>
+<td style="text-align: right;" class="numcol">0</td>
+<td style="text-align: right;" class="numcol sorting_1">0</td>
+
+<td style="text-align: right;" class="numcol">0</td>
+
+<td style="text-align: right;" class="numcol">0</td>
+</tr><tr role="row" class="even">
+
+
+<td style="text-align: right;" class="numcol strcol">22</td>
+<td style="text-align: left;" class="numcol">
+<a href="SALEM.html">
+SALEM
+</a></td>
+
+<td style="text-align: left;" class="numcol">IGNOAPS</td>
+
+<td style="text-align: right;" class="numcol">77295</td>
+<td style="text-align: right;" class="numcol">75373</td>
+<td style="text-align: right;" class="numcol">0</td>
+<td style="text-align: right;" class="numcol">1922</td>
+<td style="text-align: right;" class="numcol sorting_1">0</td>
+
+<td style="text-align: right;" class="numcol">27980</td>
+
+<td style="text-align: right;" class="numcol">0</td>
+</tr><tr role="row" class="odd">
+
+
+<td style="text-align: right;" class="numcol strcol">23</td>
+<td style="text-align: left;" class="numcol">
+<a href="SIVAGANGAI.html">
+SIVAGANGAI
+</a></td>
+
+<td style="text-align: left;" class="numcol">IGNOAPS</td>
+
+<td style="text-align: right;" class="numcol">36837</td>
+<td style="text-align: right;" class="numcol">36520</td>
+<td style="text-align: right;" class="numcol">0</td>
+<td style="text-align: right;" class="numcol">317</td>
+<td style="text-align: right;" class="numcol sorting_1">0</td>
+
+<td style="text-align: right;" class="numcol">19225</td>
+
+<td style="text-align: right;" class="numcol">0</td>
+</tr><tr role="row" class="even">
+
+
+<td style="text-align: right;" class="numcol strcol">24</td>
+<td style="text-align: left;" class="numcol">
+<a href="TENKASI">
+TENKASI
+</a></td>
+
+<td style="text-align: left;" class="numcol">IGNOAPS</td>
+
+<td style="text-align: right;" class="numcol">0</td>
+<td style="text-align: right;" class="numcol">0</td>
+<td style="text-align: right;" class="numcol">0</td>
+<td style="text-align: right;" class="numcol">0</td>
+<td style="text-align: right;" class="numcol sorting_1">0</td>
+
+<td style="text-align: right;" class="numcol">0</td>
+
+<td style="text-align: right;" class="numcol">0</td>
+</tr><tr role="row" class="odd">
+
+
+<td style="text-align: right;" class="numcol strcol">25</td>
+<td style="text-align: left;" class="numcol">
+<a href="THANJAVUR.html">
+THANJAVUR
+</a></td>
+
+<td style="text-align: left;" class="numcol">IGNOAPS</td>
+
+<td style="text-align: right;" class="numcol">30350</td>
+<td style="text-align: right;" class="numcol">29740</td>
+<td style="text-align: right;" class="numcol">0</td>
+<td style="text-align: right;" class="numcol">610</td>
+<td style="text-align: right;" class="numcol sorting_1">0</td>
+
+<td style="text-align: right;" class="numcol">16985</td>
+
+<td style="text-align: right;" class="numcol">0</td>
+</tr><tr role="row" class="even">
+
+
+<td style="text-align: right;" class="numcol strcol">26</td>
+<td style="text-align: left;" class="numcol">
+<a href="THENI.html">
+THENI
+</a></td>
+
+<td style="text-align: left;" class="numcol">IGNOAPS</td>
+
+<td style="text-align: right;" class="numcol">19453</td>
+<td style="text-align: right;" class="numcol">19370</td>
+<td style="text-align: right;" class="numcol">0</td>
+<td style="text-align: right;" class="numcol">83</td>
+<td style="text-align: right;" class="numcol sorting_1">0</td>
+
+<td style="text-align: right;" class="numcol">8566</td>
+
+<td style="text-align: right;" class="numcol">0</td>
+</tr><tr role="row" class="odd">
+
+
+<td style="text-align: right;" class="numcol strcol">27</td>
+<td style="text-align: left;" class="numcol">
+<a href="THE NILGIRIS.html">
+THE NILGIRIS
+</a></td>
+
+<td style="text-align: left;" class="numcol">IGNOAPS</td>
+
+<td style="text-align: right;" class="numcol">12191</td>
+<td style="text-align: right;" class="numcol">12032</td>
+<td style="text-align: right;" class="numcol">0</td>
+<td style="text-align: right;" class="numcol">159</td>
+<td style="text-align: right;" class="numcol sorting_1">0</td>
+
+<td style="text-align: right;" class="numcol">7522</td>
+
+<td style="text-align: right;" class="numcol">0</td>
+</tr><tr role="row" class="even">
+
+
+<td style="text-align: right;" class="numcol strcol">28</td>
+<td style="text-align: left;" class="numcol">
+<a href="THIRUCHIRAPPALLI.html">
+THIRUCHIRAPPALLI
+</a></td>
+
+<td style="text-align: left;" class="numcol">IGNOAPS</td>
+
+<td style="text-align: right;" class="numcol">45271</td>
+<td style="text-align: right;" class="numcol">44692</td>
+<td style="text-align: right;" class="numcol">0</td>
+<td style="text-align: right;" class="numcol">579</td>
+<td style="text-align: right;" class="numcol sorting_1">0</td>
+
+<td style="text-align: right;" class="numcol">28044</td>
+
+<td style="text-align: right;" class="numcol">0</td>
+</tr><tr role="row" class="odd">
+
+
+<td style="text-align: right;" class="numcol strcol">29</td>
+<td style="text-align: left;" class="numcol">
+<a href="THIRUVARUR.html">
+THIRUVARUR
+</a></td>
+
+<td style="text-align: left;" class="numcol">IGNOAPS</td>
+
+<td style="text-align: right;" class="numcol">28395</td>
+<td style="text-align: right;" class="numcol">27933</td>
+<td style="text-align: right;" class="numcol">0</td>
+<td style="text-align: right;" class="numcol">462</td>
+<td style="text-align: right;" class="numcol sorting_1">0</td>
+
+<td style="text-align: right;" class="numcol">15244</td>
+
+<td style="text-align: right;" class="numcol">0</td>
+</tr><tr role="row" class="even">
+
+
+<td style="text-align: right;" class="numcol strcol">30</td>
+<td style="text-align: left;" class="numcol">
+<a href="THOOTHUKKUDI.html">
+THOOTHUKKUDI
+</a></td>
+
+<td style="text-align: left;" class="numcol">IGNOAPS</td>
+
+<td style="text-align: right;" class="numcol">21945</td>
+<td style="text-align: right;" class="numcol">21761</td>
+<td style="text-align: right;" class="numcol">0</td>
+<td style="text-align: right;" class="numcol">184</td>
+<td style="text-align: right;" class="numcol sorting_1">0</td>
+
+<td style="text-align: right;" class="numcol">10043</td>
+
+<td style="text-align: right;" class="numcol">0</td>
+</tr><tr role="row" class="odd">
+
+
+<td style="text-align: right;" class="numcol strcol">31</td>
+<td style="text-align: left;" class="numcol">
+<a href="TIRUNELVELI.html">
+TIRUNELVELI
+</a></td>
+
+<td style="text-align: left;" class="numcol">IGNOAPS</td>
+
+<td style="text-align: right;" class="numcol">42154</td>
+<td style="text-align: right;" class="numcol">41704</td>
+<td style="text-align: right;" class="numcol">0</td>
+<td style="text-align: right;" class="numcol">450</td>
+<td style="text-align: right;" class="numcol sorting_1">0</td>
+
+<td style="text-align: right;" class="numcol">24474</td>
+
+<td style="text-align: right;" class="numcol">0</td>
+</tr><tr role="row" class="even">
+
+
+<td style="text-align: right;" class="numcol strcol">32</td>
+<td style="text-align: left;" class="numcol">
+<a href="TIRUPATHUR">
+TIRUPATHUR
+</a></td>
+
+<td style="text-align: left;" class="numcol">IGNOAPS</td>
+
+<td style="text-align: right;" class="numcol">0</td>
+<td style="text-align: right;" class="numcol">0</td>
+<td style="text-align: right;" class="numcol">0</td>
+<td style="text-align: right;" class="numcol">0</td>
+<td style="text-align: right;" class="numcol sorting_1">0</td>
+
+<td style="text-align: right;" class="numcol">0</td>
+
+<td style="text-align: right;" class="numcol">0</td>
+</tr><tr role="row" class="odd">
+
+
+<td style="text-align: right;" class="numcol strcol">33</td>
+<td style="text-align: left;" class="numcol">
+<a href="TIRUPPUR.html">
+TIRUPPUR
+</a></td>
+
+<td style="text-align: left;" class="numcol">IGNOAPS</td>
+
+<td style="text-align: right;" class="numcol">40732</td>
+<td style="text-align: right;" class="numcol">39412</td>
+<td style="text-align: right;" class="numcol">0</td>
+<td style="text-align: right;" class="numcol">1320</td>
+<td style="text-align: right;" class="numcol sorting_1">0</td>
+
+<td style="text-align: right;" class="numcol">18622</td>
+
+<td style="text-align: right;" class="numcol">0</td>
+</tr><tr role="row" class="even">
+
+
+<td style="text-align: right;" class="numcol strcol">34</td>
+<td style="text-align: left;" class="numcol">
+<a href="TIRUVALLUR.html">
+TIRUVALLUR
+</a></td>
+
+<td style="text-align: left;" class="numcol">IGNOAPS</td>
+
+<td style="text-align: right;" class="numcol">109916</td>
+<td style="text-align: right;" class="numcol">108749</td>
+<td style="text-align: right;" class="numcol">0</td>
+<td style="text-align: right;" class="numcol">1167</td>
+<td style="text-align: right;" class="numcol sorting_1">0</td>
+
+<td style="text-align: right;" class="numcol">27384</td>
+
+<td style="text-align: right;" class="numcol">0</td>
+</tr><tr role="row" class="odd">
+
+
+<td style="text-align: right;" class="numcol strcol">35</td>
+<td style="text-align: left;" class="numcol">
+<a href="TIRUVANNAMALAI.html">
+TIRUVANNAMALAI
+</a></td>
+
+<td style="text-align: left;" class="numcol">IGNOAPS</td>
+
+<td style="text-align: right;" class="numcol">49714</td>
+<td style="text-align: right;" class="numcol">48676</td>
+<td style="text-align: right;" class="numcol">0</td>
+<td style="text-align: right;" class="numcol">1038</td>
+<td style="text-align: right;" class="numcol sorting_1">0</td>
+
+<td style="text-align: right;" class="numcol">29670</td>
+
+<td style="text-align: right;" class="numcol">0</td>
+</tr><tr role="row" class="even">
+
+
+<td style="text-align: right;" class="numcol strcol">36</td>
+<td style="text-align: left;" class="numcol">
+<a href="VELLORE.html">
+VELLORE
+</a></td>
+
+<td style="text-align: left;" class="numcol">IGNOAPS</td>
+
+<td style="text-align: right;" class="numcol">173033</td>
+<td style="text-align: right;" class="numcol">169123</td>
+<td style="text-align: right;" class="numcol">0</td>
+<td style="text-align: right;" class="numcol">3910</td>
+<td style="text-align: right;" class="numcol sorting_1">0</td>
+
+<td style="text-align: right;" class="numcol">50250</td>
+
+<td style="text-align: right;" class="numcol">0</td>
+</tr><tr role="row" class="odd">
+
+
+<td style="text-align: right;" class="numcol strcol">37</td>
+<td style="text-align: left;" class="numcol">
+<a href="VILLUPPURAM.html">
+VILLUPPURAM
+</a></td>
+
+<td style="text-align: left;" class="numcol">IGNOAPS</td>
+
+<td style="text-align: right;" class="numcol">97006</td>
+<td style="text-align: right;" class="numcol">95558</td>
+<td style="text-align: right;" class="numcol">0</td>
+<td style="text-align: right;" class="numcol">1448</td>
+<td style="text-align: right;" class="numcol sorting_1">0</td>
+
+<td style="text-align: right;" class="numcol">53120</td>
+
+<td style="text-align: right;" class="numcol">0</td>
+</tr><tr role="row" class="even">
+
+
+<td style="text-align: right;" class="numcol strcol">38</td>
+<td style="text-align: left;" class="numcol">
+<a href="VIRUDHUNAGAR.html">
+VIRUDHUNAGAR
+</a></td>
+
+<td style="text-align: left;" class="numcol">IGNOAPS</td>
+
+<td style="text-align: right;" class="numcol">44833</td>
+<td style="text-align: right;" class="numcol">43407</td>
+<td style="text-align: right;" class="numcol">0</td>
+<td style="text-align: right;" class="numcol">1426</td>
+<td style="text-align: right;" class="numcol sorting_1">0</td>
+
+<td style="text-align: right;" class="numcol">23553</td>
+
+<td style="text-align: right;" class="numcol">0</td>
+</tr></tbody>
+
+
+</table></div><div class="dataTables_scrollFoot" style="overflow: hidden; border: 0px; width: 100%;"><div class="dataTables_scrollFootInner" style="width: 801.641px; padding-right: 8px;"><table class="table table-bordered table-striped order-column dataTable" style="width: 801.641px; margin-left: 0px;" role="grid"><tfoot class="bg-info">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<tr><td colspan="2" rowspan="1" style="width: 199.969px;"><b>GRAND TOTAL</b></td><td style="text-align: left; width: 77.1562px;" rowspan="1" colspan="1">IGNOAPS</td><td style="text-align: right; width: 89.4062px;" rowspan="1" colspan="1">1620477</td><td style="text-align: right; width: 71.3438px;" rowspan="1" colspan="1">1592409</td><td style="text-align: right; width: 70.8281px;" rowspan="1" colspan="1">0</td><td style="text-align: right; width: 70.8281px;" rowspan="1" colspan="1">28068</td><td style="text-align: right; width: 70.8281px;" rowspan="1" colspan="1">0</td><td style="text-align: right; width: 64.0938px;" rowspan="1" colspan="1">747149</td><td style="text-align: right; width: 86.1875px;" rowspan="1" colspan="1">0</td></tr>
+
+
+</tfoot></table></div></div></div><div class="dataTables_info" id="exportDataTable_info" role="status" aria-live="polite">Showing 1 to 38 of 38 entries</div></div></div></div>
+<div class="mx-auto form-group col-md-6 py-2">
+<div class="row mx-md-n5">
+<div class="col">
+<button type="button" class="btn btn-info waves-effect waves-light" onclick="tableToExcel('tb2excel', 'W3C Example Table')">
+<i class="fa fa-file-text float-left pt-1" aria-hidden="true"></i>Download Excel
+</button>
+
+</div>
+<div class="col">
+<button type="button" class="btn btn-primary waves-effect waves-light" onclick="printDiv('printPage')"><i class="fa fa-print float-left pt-1" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;&nbsp;Print</button>
+
+</div>
+<div class="col">
+<button type="button" class="btn btn-info waves-effect waves-light" onclick="stateGoBack('statedashboard.do?method=intialize')">
+<i class="fa fa-arrow-left float-left pt-1" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;&nbsp;Back</button>
+</div>
+</div>		</div>
+		
+	
+	
+	
+	
+
+	
+	
+	
+	
+	
+			
+	
+</div>
+</form>
